@@ -1,9 +1,10 @@
 
 # Program to check palindrome
 
-string = input("Enter a string: ")
+words = ["hello", "madam"]
 
-if string == string[::-1]:
-    print(string, "is a Palindrome")
-else:
-    print(string, "is not a Palindrome")
+for string in words:
+    if string == string[::-1]:
+        print(string, "is a Palindrome")
+    else:
+        print(string, "is not a Palindrome")
